@@ -1,0 +1,109 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*",
+    "node_modules/**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "prefix": "app",
+            "style": "kebab-case",
+            "type": "element"
+          }
+        ],
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "prefix": "app",
+            "style": "camelCase",
+            "type": "attribute"
+          }
+        ],
+        "prettier/prettier": "warn",
+        "arrow-body-style": "off",
+        "prefer-arrow-callback": "off",
+        "object-curly-spacing": "off",
+        "max-lines": [
+          "error",
+          {
+            "max": 750,
+            "skipBlankLines": true,
+            "skipComments": true
+          }
+        ],
+        "max-lines-per-function": [
+          "error",
+          {
+            "max": 35,
+            "skipBlankLines": true,
+            "skipComments": true,
+            "IIFEs": true
+          }
+        ],
+        "complexity": [
+          "error",
+          10
+        ],
+        "prefer-const": "error",
+        "curly": "error",
+        "no-empty-function": [
+          "error",
+          {
+            "allow": [
+              "constructors"
+            ]
+          }
+        ],
+        "@typescript-eslint/restrict-plus-operands": "error",
+        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+        "no-console": "error",
+        "no-debugger": "error",
+        "no-cond-assign": "error",
+        "no-const-assign": "error",
+        "no-sparse-arrays": "error",
+        "no-template-curly-in-string": "error",
+        "no-unreachable": "error",
+        "no-multi-spaces": "error",
+        "no-trailing-spaces": "error"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended",
+        "plugin:prettier/recommended"
+      ],
+      "rules": {
+        "prettier/prettier": "warn"
+      }
+    },
+    {
+      "files": [
+        "*.spec.ts"
+      ],
+      "plugins": ["jest"],
+      "rules": {
+        "max-lines-per-function": "off",
+        "max-lines": "off",
+        "jest/expect-expect": "off"
+      }
+    }
+  ]
+}

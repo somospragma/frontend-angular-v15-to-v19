@@ -1,0 +1,35 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "trailingComma": "es5",
+  "bracketSameLine": true,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "bracketSameLine": false,
+        "parser":"html"
+      }
+    },
+    {
+      "files": ["*.component.html"],
+      "options": {
+        "bracketSameLine": true,
+        "parser": "angular"
+      }
+    },
+    {
+      "files": ["*.ts"],
+      "options": {
+        "arrowParens": "always",
+        "quoteProps": "as-needed",
+        "singleQuote": true
+      }
+    }
+  ]
+}
