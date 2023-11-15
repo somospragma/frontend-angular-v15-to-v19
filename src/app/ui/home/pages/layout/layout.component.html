@@ -1,1 +1,12 @@
-<h1 class="title">Arquetipo Angular 15 Standalone - TalentPool Pragma</h1>
+<h1 class="title">{{ 'LAYOUT.TITLE' | translate }}</h1>
+<section class="container">
+  <h2>{{ 'LAYOUT.SAY' | translate: titleParams }}</h2>
+  <label>
+    {{ 'LAYOUT.SELECT' | translate }}
+    <select #langSelect (change)="translate.use(langSelect.value)">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+        {{ lang }}
+      </option>
+    </select>
+  </label>
+</section>

@@ -1,0 +1,7 @@
+{
+  "LAYOUT": {
+    "TITLE": "Angular Archetype 15 Standalone - TalentPool Pragma",
+    "SAY": "hello {{pragmatico}}!, It's great to have you!",
+    "SELECT": "Select Language"
+  }
+}
