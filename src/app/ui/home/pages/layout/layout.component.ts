@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { environment } from '@src/environments/environment';
 
 import { TranslateModule } from '@ngx-translate/core';
-import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
 
 @Component({
@@ -14,7 +14,6 @@ import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
   styleUrls: ['./layout.component.scss'],
 })
 export class LayoutComponent implements OnInit {
-
   /**
    * Inyectamos el servicio de traducción de ngx-translate
    * @type {TranslateService}
@@ -28,7 +27,7 @@ export class LayoutComponent implements OnInit {
    * @type {any} // TODO: Definir tipo
    * @memberof LayoutComponent
    */
-  titleParams: any = {pragmatico: 'pragmatico'};
+  titleParams: any = { pragmatico: 'pragmatico' };
 
   /**
    * Idioma en uso

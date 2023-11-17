@@ -1,5 +1,5 @@
-import { environment } from "@src/environments/environment";
-import { browserLangHelper } from "./browserLang.helper";
+import { environment } from '@src/environments/environment';
+import { browserLangHelper } from './browserLang.helper';
 
 describe('browserLangHelper', () => {
   test('should return the default language when no language is provided', () => {

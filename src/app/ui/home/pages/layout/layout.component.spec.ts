@@ -28,7 +28,7 @@ describe('LayoutComponent', () => {
           },
         }),
       ],
-      providers: [TranslateService]
+      providers: [TranslateService],
     }).compileComponents();
 
     fixture = TestBed.createComponent(LayoutComponent);
@@ -55,14 +55,14 @@ describe('LayoutComponent', () => {
   });
 
   test('should use browser language if available', () => {
-    const translateServiceSpy =jest.spyOn(translateService, 'getBrowserLang').mockReturnValue('es');
+    const translateServiceSpy = jest.spyOn(translateService, 'getBrowserLang').mockReturnValue('es');
     component.ngOnInit();
     expect(translateServiceSpy).toHaveBeenCalled();
     expect(translateServiceSpy).toHaveReturnedWith('es');
   });
 
   test('should use default language if browser language is not available', () => {
-    const translateServiceSpy =jest.spyOn(translateService, 'getBrowserLang').mockReturnValue(undefined);
+    const translateServiceSpy = jest.spyOn(translateService, 'getBrowserLang').mockReturnValue(undefined);
     component.ngOnInit();
     expect(translateServiceSpy).toHaveBeenCalled();
     expect(translateServiceSpy).toHaveReturnedWith(undefined);
