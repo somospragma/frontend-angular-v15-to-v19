@@ -59,18 +59,35 @@ Ejecute `npm run build` para construir el proyecto. Los artefactos de compilaci�
 Para ejecutar las pruebas unitarias a través de [JEST](https://jestjs.io/docs/getting-startedo). De forma predeterminada, AppComponent evalúa 3 pruebas unitarias. Cada componente debe contener pruebas unitarias y una covertura minima del 70%. 
 
 Ejeucte los comandos según corresponda:
-- `npm run test` 
-- `npm run test:watch` 
-- `npm run test:coverage` 
+
+```bash 
+npm run test
+``` 
+```bash 
+npm run test:watch
+``` 
+
+```bash 
+npm run test:coverage
+``` 
 
 ## ESLint - Prettier
 
 ESLint y Prettier te ayudan a mantener tu código limpio y legible, lo que a su vez te ayuda a reducir errores y mejorar la calidad de tu código. Por defecto este proyecto ya contiene las configuraciones necesarias, las reglas de ESLint en el archivo .eslintrc.json según las necesidades de TalentPool.
 
 Ejeucte los comandos según corresponda:
-- `npm run lint` 
-- `npm run lint-all` 
-- `npm run lint-watch` 
+
+```bash 
+npm run lint
+``` 
+
+```bash
+npm run lint-all 
+``` 
+
+```bash
+npm run lint-watch
+``` 
 
 Para obtener el mejor rendimiento, debes haber instalado y configurado las extensiones necesarias y/o recomendadas:
 - **ESLint** -> vscode-eslint
@@ -80,8 +97,17 @@ Para obtener el mejor rendimiento, debes haber instalado y configurado las exten
 ## Branch, Commits y GIT
 
 Para la creación de Branch revise la estrategia de Branching Adecuada para el proyecto. 
-Para la generación de commits haga uso de Conventional Commits puede consultar mas [aquí](https://www.conventionalcommits.org/en/v1.0.0/)
+Para la generación de commits haga uso de Conventional Commits puede consultar mas [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+## Documentación
+
+Este proyecto utiliza **Pomodoro** como herramienta de documentación para Angular, basada en JSDoc. Para generar y visualizar la documentación del proyecto, ejecute el siguiente comando:
+
+```bash
+npm run compodoc:build-and-serve
+``` 
+
+Además, puede encontrar información adicional en nuestro espacio de trabajo:  [Compodoc | Workplace](https://pragma.workplace.com/work/knowledge/3174035239567193)
 
 ## Soporte de CLI
 

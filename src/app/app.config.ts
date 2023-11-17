@@ -10,11 +10,22 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { environment } from '@src/environments/environment.development';
 
-// AoT requires an exported function for factories
+/**
+ * Create a factory function that returns a new TranslateHttpLoader.
+ * @param {HttpClient} http
+ * @returns {TranslateHttpLoader}
+ */
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
+/**
+ * Configuración de la aplicación, Opciones de configuración para bootstrapApplication en main.ts. providers: Proveedores de servicios para la aplicación.
+ * @export
+ * @class AppConfig
+ * @implements {ApplicationConfig}
+ * @returns {ApplicationConfig} AppConfig
+ */
 export const AppConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),

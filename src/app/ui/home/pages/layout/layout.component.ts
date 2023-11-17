@@ -6,6 +6,12 @@ import { TranslateModule } from '@ngx-translate/core';
 import { TranslateService } from '@ngx-translate/core';
 import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
 
+/**
+ * Componente para el layout de la aplicación
+ * @export
+ * @class LayoutComponent
+ * @implements {OnInit}
+ */
 @Component({
   selector: 'app-layout',
   standalone: true,
@@ -18,7 +24,6 @@ export class LayoutComponent implements OnInit {
    * Inyectamos el servicio de traducción de ngx-translate
    * @type {TranslateService}
    * @memberof LayoutComponent
-   * @see
    */
   translate: TranslateService = inject(TranslateService);
 
@@ -36,6 +41,11 @@ export class LayoutComponent implements OnInit {
    */
   languageInUse: string = this.translate.currentLang;
 
+  /**
+   * Creates an instance of LayoutComponent.
+   * @memberof LayoutComponent
+   * @returns {void}
+   */
   constructor() {
     this.translate.setDefaultLang(environment.DEFAULT_LANGUAGE);
     this.translate.addLangs(environment.LIST_LANGUAGES.split(','));
@@ -44,7 +54,6 @@ export class LayoutComponent implements OnInit {
    * Metodo que se ejecuta al iniciar el componente
    * @memberof LayoutComponent
    * @returns {void}
-   * @see
    */
   ngOnInit(): void {
     this.languageInUse = browserLangHelper(this.translate.getBrowserLang());
