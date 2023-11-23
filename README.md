@@ -1,6 +1,6 @@
-<h1 align="center">Arquetipo Angular Talent Pool Pragma</h1>
+<h1 align="center">Arquetipo Angular Pragma</h1>
 <hr>
-<h2 align="center">Angular 15 - La plataforma moderna para desarrolladores web.</h2>
+<h2 align="center">Angular | La plataforma moderna para desarrolladores web.</h2>
 
 <p align="center">
   <img src="https://github.com/angular/angular/raw/main/aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="123px" height="113px"/>
@@ -45,6 +45,15 @@ Este proyecto trabaja bajo Angular v15 mediante STANDALONE,puede revisar las TAG
 
 Ejecute `ng serve` o `npm run start` para un servidor de desarrollo. Navegue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente. Admite componentes independientes.
 
+```bash 
+ng serve
+``` 
+
+```bash
+npm start
+``` 
+
+
 ## Aruitectura de Codigo.
 
 Ejecute `ng generate component component-name --standalone` para generar un nuevo componente. También puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`. Tenga en cuenta el uso del principio LIFT para Angular, puede ver más información [aquí](https://pragma.workplace.com/work/knowledge/3162767777360606) o use la extensión Angular schematics para Visual Studio Code.
@@ -73,7 +82,7 @@ npm run test:coverage
 
 ## ESLint - Prettier
 
-ESLint y Prettier te ayudan a mantener tu código limpio y legible, lo que a su vez te ayuda a reducir errores y mejorar la calidad de tu código. Por defecto este proyecto ya contiene las configuraciones necesarias, las reglas de ESLint en el archivo .eslintrc.json según las necesidades de TalentPool.
+ESLint y Prettier te ayudan a mantener tu código limpio y legible, lo que a su vez te ayuda a reducir errores y mejorar la calidad de tu código. Por defecto este proyecto ya contiene las configuraciones necesarias, las reglas de ESLint en el archivo .eslintrc.json según las necesidades de Pragma.
 
 Ejeucte los comandos según corresponda:
 
@@ -101,7 +110,7 @@ Para la generación de commits haga uso de Conventional Commits puede consultar 
 
 ## Documentación
 
-Este proyecto utiliza **Pomodoro** como herramienta de documentación para Angular, basada en JSDoc. Para generar y visualizar la documentación del proyecto, ejecute el siguiente comando:
+Este proyecto utiliza **Compodoc** como herramienta de documentación para Angular, basada en JSDoc. Para generar y visualizar la documentación del proyecto, ejecute el siguiente comando:
 
 ```bash
 npm run compodoc:build-and-serve
@@ -116,8 +125,7 @@ Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [
 
 ## Expressions of Gratitude 🎁
 
-<b>"El talento no solo hay que encontrarlo, hay que guiarlo en la dirección correcta."</b>
-Talent Pool
+<b>"El talento no solo hay que encontrarlo, hay que guiarlo en la dirección correcta."</b> Pragma
 
 ## Author 🤖
 
