@@ -98,7 +98,9 @@
       "files": [
         "*.spec.ts"
       ],
-      "plugins": ["jest"],
+      "plugins": [
+        "jest"
+      ],
       "rules": {
         "max-lines-per-function": "off",
         "max-lines": "off",
