@@ -1,6 +1,6 @@
 {
-  "name": "arquetipo-talent-pool",
-  "version": "0.0.2",
+  "name": "arquetipo-pragma",
+  "version": "1.0.0",
   "scripts": {
     "start": "ng serve -o",
     "build": "ng build",
@@ -11,7 +11,7 @@
     "test:coverage": "jest --coverage --coverageReporters=text",
     "test:staged": "jest --coverage --build --findRelatedTests --passWithNoTests",
     "lint": "ng lint",
-    "lint:fix": "ng lint arquetipo-talent-pool --fix",
+    "lint:fix": "ng lint arquetipo-pragma --fix",
     "lint:watch": "nodemon --exec \"npm run lint || exit 1\" --ext ts,html,scss",
     "compodoc:build": "compodoc -p tsconfig.doc.json",
     "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s"
