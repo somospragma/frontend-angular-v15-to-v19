@@ -1,9 +1,9 @@
+import { ApplicationConfig } from '@angular/core';
+import { importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { routes } from './app.routes';
-import { ApplicationConfig } from '@angular/platform-browser';
-import { importProvidersFrom } from '@angular/core';
 
 import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';

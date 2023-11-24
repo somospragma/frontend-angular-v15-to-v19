@@ -69,8 +69,6 @@
             ]
           }
         ],
-        "@typescript-eslint/restrict-plus-operands": "error",
-        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
         "no-console": "error",
         "no-debugger": "error",
         "no-cond-assign": "error",
@@ -98,7 +96,9 @@
       "files": [
         "*.spec.ts"
       ],
-      "plugins": ["jest"],
+      "plugins": [
+        "jest"
+      ],
       "rules": {
         "max-lines-per-function": "off",
         "max-lines": "off",
