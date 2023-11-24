@@ -69,8 +69,6 @@
             ]
           }
         ],
-        "@typescript-eslint/restrict-plus-operands": "error",
-        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
         "no-console": "error",
         "no-debugger": "error",
         "no-cond-assign": "error",
