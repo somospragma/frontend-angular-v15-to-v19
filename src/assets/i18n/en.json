@@ -1,6 +1,6 @@
 {
   "LAYOUT": {
-    "TITLE": "Angular Archetype 15 Standalone - Pragma",
+    "TITLE": "Angular Archetype 16 Standalone - Pragma",
     "SAY": "hello {{pragmatico}}!, It's great to have you!",
     "SELECT": "Select Language"
   }
