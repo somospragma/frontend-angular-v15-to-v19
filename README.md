@@ -27,16 +27,16 @@
 
 # Angular CLI
 
-Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 15
+Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 16
 
-Este proyecto trabaja bajo Angular v15 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
+Este proyecto trabaja bajo Angular v16 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
 
 
 #### Requerimientos y dependencias
 
 |  package use  |  version  |
 |---------------|-----------|
-|  Angular CLI  |  15.2     |
+|  Angular CLI  |  16.2     |
 |  Node         |  18       |
 |  Npm          |  9        |
 
