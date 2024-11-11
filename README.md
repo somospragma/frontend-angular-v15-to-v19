@@ -3,7 +3,7 @@
 <h2 align="center">Angular | La plataforma moderna para desarrolladores web.</h2>
 
 <p align="center">
-  <img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" alt="angular-logo" width="95px" height="103px"/>
+  <img src="https://seeklogo.com/images/A/angular-icon-logo-5FC0C40EAC-seeklogo.com.png" alt="angular-logo" width="95px" height="103px"/>
 
   <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.0/1675676105903/Microsoft.VisualStudio.Services.Icons.Default" alt="eslint-logo" width="105px" height="100px"/>
 
@@ -27,16 +27,16 @@
 
 # Angular CLI
 
-Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 16
+Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 17
 
-Este proyecto trabaja bajo Angular v16 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
+Este proyecto trabaja bajo Angular v17 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
 
 
 #### Requerimientos y dependencias
 
 |  package use  |  version  |
 |---------------|-----------|
-|  Angular CLI  |  16.2     |
+|  Angular CLI  |  17.3     |
 |  Node         |  20       |
 |  Npm          |  10       |
 
