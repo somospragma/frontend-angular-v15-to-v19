@@ -37,8 +37,8 @@ Este proyecto trabaja bajo Angular v16 mediante STANDALONE,puede revisar las TAG
 |  package use  |  version  |
 |---------------|-----------|
 |  Angular CLI  |  16.2     |
-|  Node         |  18       |
-|  Npm          |  9        |
+|  Node         |  20.10    |
+|  Npm          |  10.2     |
 
 
 ## Servidor de Desarrollo
