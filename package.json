@@ -1,6 +1,6 @@
 {
   "name": "arquetipo-pragma",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "scripts": {
     "start": "ng serve -o",
     "build": "ng build",
@@ -30,7 +30,7 @@
     "@ngx-translate/http-loader": "^8.0.0",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
-    "zone.js": "~0.14.2"
+    "zone.js": "~0.13.3"
   },
   "devDependencies": {
     "@angular-builders/jest": "^16.0.1",
