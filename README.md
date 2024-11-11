@@ -3,7 +3,7 @@
 <h2 align="center">Angular | La plataforma moderna para desarrolladores web.</h2>
 
 <p align="center">
-  <img src="https://github.com/angular/angular/raw/main/aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="123px" height="113px"/>
+  <img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" alt="angular-logo" width="95px" height="103px"/>
 
   <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.0/1675676105903/Microsoft.VisualStudio.Services.Icons.Default" alt="eslint-logo" width="105px" height="100px"/>
 
@@ -37,8 +37,8 @@ Este proyecto trabaja bajo Angular v16 mediante STANDALONE,puede revisar las TAG
 |  package use  |  version  |
 |---------------|-----------|
 |  Angular CLI  |  16.2     |
-|  Node         |  20.10    |
-|  Npm          |  10.2     |
+|  Node         |  20       |
+|  Npm          |  10       |
 
 
 ## Servidor de Desarrollo
