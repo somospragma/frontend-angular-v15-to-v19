@@ -1,22 +1,15 @@
 {
   "root": true,
-  "ignorePatterns": [
-    "projects/**/*",
-    "node_modules/**/*"
-  ],
+  "ignorePatterns": ["projects/**/*", "node_modules/**/*"],
   "overrides": [
     {
-      "files": [
-        "*.ts"
-      ],
+      "files": ["*.ts"],
       "parserOptions": {
         "project": "./tsconfig.json",
-        "createDefaultProgram": true
+        "createDefaultProgram": true,
+        "warnOnUnsupportedTypeScriptVersion": false
       },
-      "extends": [
-        "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
-      ],
+      "extends": ["plugin:@angular-eslint/recommended", "plugin:@angular-eslint/template/process-inline-templates"],
       "rules": {
         "@angular-eslint/component-selector": [
           "error",
@@ -55,18 +48,13 @@
             "IIFEs": true
           }
         ],
-        "complexity": [
-          "error",
-          10
-        ],
+        "complexity": ["error", 10],
         "prefer-const": "error",
         "curly": "error",
         "no-empty-function": [
           "error",
           {
-            "allow": [
-              "constructors"
-            ]
+            "allow": ["constructors"]
           }
         ],
         "no-console": "error",
@@ -81,24 +69,15 @@
       }
     },
     {
-      "files": [
-        "*.html"
-      ],
-      "extends": [
-        "plugin:@angular-eslint/template/recommended",
-        "plugin:prettier/recommended"
-      ],
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended", "plugin:prettier/recommended"],
       "rules": {
         "prettier/prettier": "warn"
       }
     },
     {
-      "files": [
-        "*.spec.ts"
-      ],
-      "plugins": [
-        "jest"
-      ],
+      "files": ["*.spec.ts"],
+      "plugins": ["jest"],
       "rules": {
         "max-lines-per-function": "off",
         "max-lines": "off",
