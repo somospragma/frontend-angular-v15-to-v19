@@ -14,7 +14,6 @@ import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
  */
 @Component({
   selector: 'app-layout',
-  standalone: true,
   imports: [CommonModule, TranslateModule],
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss'],
