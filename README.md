@@ -3,13 +3,19 @@
 <h2 align="center">Angular | La plataforma moderna para desarrolladores web.</h2>
 
 <p align="center">
-  <img src="https://seeklogo.com/images/A/angular-icon-logo-9946B9795D-seeklogo.com.png" alt="angular-logo" width="95px" height="103px"/>
+  <img src="https://img.shields.io/badge/Angular-v16-red?logo=angular" />
+  <img src="https://img.shields.io/badge/Standalone-Components-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+</p>
+
+<p align="center">
+  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/522563bccab2344634d3800d73514055/angular_wordmark_gradient.png" alt="angular-logo" width="300px" height="101x"/>
 
   <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.0/1675676105903/Microsoft.VisualStudio.Services.Icons.Default" alt="eslint-logo" width="105px" height="100px"/>
 
   <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="100px"/>
 
-  <img src="https://seeklogo.com/images/P/prettier-logo-D5C5197E37-seeklogo.com.png" alt="prettier-logo" width="92px" height="92px"/>
+  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/880fb2962bb41eb13ee8f30f38288433/prettier-2-logo.png" alt="prettier-logo" width="120px" height="100px"/>
 
   <br>
   <br>
@@ -37,8 +43,17 @@ Este proyecto trabaja bajo Angular v16 mediante STANDALONE,puede revisar las TAG
 |  package use  |  version  |
 |---------------|-----------|
 |  Angular CLI  |  16.2     |
-|  Node         |  20       |
-|  Npm          |  10       |
+|  Node         |  18.20    |
+|  Npm          |  10.8     |
+
+
+## Clonando el Repositorio
+
+Puede realizar el clonado segun la version y rama respectiva, si no desea conservar historial de commits sugerimos:
+
+```bash 
+git clone --depth=1 --branch <nombre-rama> <URL_DEL_REPO>
+``` 
 
 
 ## Servidor de Desarrollo
@@ -108,7 +123,30 @@ Para obtener el mejor rendimiento, debes haber instalado y configurado las exten
 Para la creación de Branch revise la estrategia de Branching Adecuada para el proyecto. 
 Para la generación de commits haga uso de Conventional Commits puede consultar mas [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-## Documentación
+## Este proyecto usa Husky
+
+Husky es una herramienta que ayuda a gestionar Git hooks en proyectos, permitiendo ejecutar scripts automáticamente antes de commits, pushes u otras acciones de Git. Se usa comúnmente para asegurarse de que el código sigue ciertas reglas antes de ser enviado al repositorio.
+
+Husky suele configurarse para tareas como:
+
+Ejecutar linters o formatters antes de hacer commit (ej. eslint, prettier).
+Correr pruebas automáticamente antes de hacer push.
+Evitar commits con errores asegurando que el código cumple ciertos estándares.
+
+
+🛠️ Hook pre-commit (Husky)
+Este archivo es un hook de Husky que se ejecuta automáticamente antes de realizar un commit en Git.
+
+🔍 **¿Qué hace?**
+- Corrige errores de formato (npm run lint:fix).
+- Verifica el código con el linter (npm run lint).
+- Reagrega archivos después de corregir el formato (git add .).
+- Ejecuta pruebas antes del commit (npm run test).
+
+⚠️ **Importante**
+Si hay errores de linting o fallan las pruebas, el commit no se realizará hasta que los corrijas. 🚀
+
+## Documentación con Compodoc
 
 Este proyecto utiliza **Compodoc** como herramienta de documentación para Angular, basada en JSDoc. Para generar y visualizar la documentación del proyecto, ejecute el siguiente comando:
 
@@ -122,6 +160,7 @@ Además, puede encontrar información adicional en nuestro espacio de trabajo:  
 
 Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
+Puede consultar la WIKI del arquetipo. [Arquetipo Pragma WIKi](https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/home)
 
 ## Expressions of Gratitude 🎁
 
