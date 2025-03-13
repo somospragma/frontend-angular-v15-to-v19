@@ -2,7 +2,7 @@
 <h2 align="center">Angular | La plataforma moderna para el desarrollo web.</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Angular-v18-red?logo=angular" />
+  <img src="https://img.shields.io/badge/Angular-v19-red?logo=angular" />
   <img src="https://img.shields.io/badge/Standalone-Components-blue" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
@@ -34,18 +34,18 @@
 
 # Angular CLI
 
-Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 17
+Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 19
 
-Este proyecto trabaja bajo Angular v17 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
+Este proyecto trabaja bajo Angular v19 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
 
 
 #### Requerimientos y dependencias
 
 |  package use  |  version  |
 |---------------|-----------|
-|  Angular CLI  |  18.2     |
-|  Node         |  20.1     |
-|  Npm          |  10.8     |
+|  Angular CLI  |  19.2     |
+|  Node         |  22.4     |
+|  Npm          |  10.9     |
 
 
 ## Clonando el Repositorio
