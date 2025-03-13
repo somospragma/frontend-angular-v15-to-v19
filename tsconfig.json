@@ -9,12 +9,13 @@
       "@shared/*": ["src/app/shared/*"],
       "@core/*": ["src/app/core/*"],
       "@store/*": ["src/app/core/store/*"],
-      "@atoms/*": ["src/app/shared/components/atoms/*"],
-      "@molecules/*": ["src/app/shared/components/molecules/*"],
-      "@organisms/*": ["src/app/shared/components/organisms/*"],
-      "@templates/*": ["src/app/shared/components/templates/*"],
-      "@interfaces/*": ["src/app/shared/interfaces/*"],
-      "@directives/*": ["src/app/shared/directives/*"]
+      "@pages/*": ["src/app/ui/pages/*"],
+      "@atoms/*": ["src/app/ui/components/atoms/*"],
+      "@molecules/*": ["src/app/ui/components/molecules/*"],
+      "@organisms/*": ["src/app/ui/components/organisms/*"],
+      "@templates/*": ["src/app/ui/components/templates/*"],
+      "@interfaces/*": ["src/app/ui/interfaces/*"],
+      "@directives/*": ["src/app/ui/directives/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -31,10 +32,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ],
+    "lib": ["ES2022", "dom"],
     "types": ["jest", "node"],
     "esModuleInterop": true
   },

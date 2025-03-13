@@ -12,4 +12,11 @@ module.exports = {
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths || {}, {
     prefix: '<rootDir>/',
   }),
+  collectCoverageFrom: [
+    'src/**/*.{ts,tsx}',
+    '!src/**/*.routes.ts', // Excluye archivos .routes.ts
+    '!src/**/*.mock.ts', // Excluye archivos .mock.ts
+    '!src/main.ts', // Excluye main.ts
+    '!src/environments/**', // Excluye toda la carpeta environments
+  ],
 };
