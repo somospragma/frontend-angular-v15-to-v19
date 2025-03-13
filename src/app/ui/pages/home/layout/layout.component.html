@@ -4,9 +4,13 @@
   <label>
     {{ 'LAYOUT.SELECT' | translate }}
     <select #langSelect (change)="translate.use(langSelect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
-        {{ lang }}
-      </option>
+      @for (lang of translate.getLangs(); track lang) {
+        <option [value]="lang" [selected]="lang === translate.currentLang">
+          {{ lang }}
+        </option>
+      } @empty {
+        <option value="sin lenguajes" disabled></option>
+      }
     </select>
   </label>
 </section>
