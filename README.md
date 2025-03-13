@@ -34,9 +34,9 @@
 
 # Angular CLI
 
-Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 17
+Este proyecto ha sido genereado con [Angular CLI](https://github.com/angular/angular-cli) versión 18
 
-Este proyecto trabaja bajo Angular v17 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
+Este proyecto trabaja bajo Angular v18 mediante STANDALONE,puede revisar las TAGs o Ramas del respositorio actual para ver las versiones disponibles.
 
 
 #### Requerimientos y dependencias
