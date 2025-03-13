@@ -5,3 +5,4 @@ VERSION | TIPO (Commit ID) | DESCRIPCION
  3.0.0  |  feat(d6c47f0c)  | Actualización de Core y Dependencias para Angular 17 Standalone
  3.1.0  |  feat(d6c47f0c)  | Actualización dependencias transitivas para Angular 17
  3.2.0  |  feat(bfc52959)  | Actualización dependencias transitivas para Angular 17, se ajusta esbuild y template sintaxis. Ajuste en directorios de App.
+ 4.0.0  |  feat(4bbba074)  | Actualización de Core y Dependencias para Angular 18 Standalone

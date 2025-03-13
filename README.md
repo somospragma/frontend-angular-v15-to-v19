@@ -2,7 +2,7 @@
 <h2 align="center">Angular | La plataforma moderna para el desarrollo web.</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Angular-v17-red?logo=angular" />
+  <img src="https://img.shields.io/badge/Angular-v18-red?logo=angular" />
   <img src="https://img.shields.io/badge/Standalone-Components-blue" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
@@ -43,9 +43,9 @@ Este proyecto trabaja bajo Angular v17 mediante STANDALONE,puede revisar las TAG
 
 |  package use  |  version  |
 |---------------|-----------|
-|  Angular CLI  |  17.3     |
-|  Node         |  20       |
-|  Npm          |  10       |
+|  Angular CLI  |  18.2     |
+|  Node         |  20.1     |
+|  Npm          |  10.8     |
 
 
 ## Clonando el Repositorio
