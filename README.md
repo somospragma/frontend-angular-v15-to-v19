@@ -15,7 +15,6 @@
 
   <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="100px"/>
 
-  <img src="https://seeklogo.com/images/P/prettier-logo-D5C5197E37-seeklogo.com.png" alt="prettier-logo" width="92px" height="92px"/>
   <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/880fb2962bb41eb13ee8f30f38288433/prettier-2-logo.png" alt="prettier-logo" width="120px" height="100px"/>
 
   <br>
