@@ -15,7 +15,7 @@
 
   <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="95px"/>
 
-  <img src="https://plugins.jetbrains.com/files/22761/696175/icon/default.png" alt="biome-logo" width="100px" height="90px"/>
+  <img src="https://gitlab.com/-/project/48992290/uploads/dd7b03797cb5bc11a2ddd294525a98b0/biome.png" alt="biome-logo" width="100px" height="90px"/>
 
  <img src="https://miro.medium.com/v2/resize:fit:1000/1*qyX0fotHRZW_-jzPkAnP4g.png" alt="signal-store-logo" width="100px" height="100px"/>
 
