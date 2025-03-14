@@ -1,1 +1,4 @@
-{"include":["src/**/*.ts"],"exclude":["src/**/*.spec.ts", "node_modules/**/*", "dist/**/*", "coverage/**/*", "src/environments/**/*"]}
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts", "node_modules/**/*", "dist/**/*", "coverage/**/*", "src/environments/**/*"]
+}

@@ -3,6 +3,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Angular-v19-red?logo=angular" />
+   <img src="https://img.shields.io/badge/%E2%9A%A0%EF%B8%8F-Experimental-orange" />
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80-Alpha-blue" />
   <img src="https://img.shields.io/badge/Standalone-Components-blue" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
@@ -11,11 +13,13 @@
 <p align="center">
   <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/522563bccab2344634d3800d73514055/angular_wordmark_gradient.png" alt="angular-logo" width="300px" height="101x"/>
 
-  <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.0/1675676105903/Microsoft.VisualStudio.Services.Icons.Default" alt="eslint-logo" width="105px" height="100px"/>
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="95px"/>
 
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="100px"/>
+  <img src="https://plugins.jetbrains.com/files/22761/696175/icon/default.png" alt="biome-logo" width="100px" height="90px"/>
 
-  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/880fb2962bb41eb13ee8f30f38288433/prettier-2-logo.png" alt="prettier-logo" width="120px" height="100px"/>
+ <img src="https://miro.medium.com/v2/resize:fit:1000/1*qyX0fotHRZW_-jzPkAnP4g.png" alt="signal-store-logo" width="100px" height="100px"/>
+
+
 
   <br>
   <br>
@@ -46,6 +50,27 @@ Este proyecto trabaja bajo Angular v19 mediante STANDALONE,puede revisar las TAG
 |  Angular CLI  |  19.2     |
 |  Node         |  22.4     |
 |  Npm          |  10.9     |
+
+
+
+ ---
+### ⚡ Proyecto en Fase Experimental
+
+<p>
+  <img src="https://img.shields.io/badge/%E2%9A%A0%EF%B8%8F-Experimental-orange" />
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80-Alpha-blue" />
+</p>
+
+Este proyecto utiliza **Angular 19** y está en **fase Alpha**.  
+El objetivo es probar configuraciones y herramientas experimentales como:
+
+- 🔹 **Biome** (Linting y formateo rápido)
+- 🔹 **Signals** (Reactividad en Angular)
+- 🔹 **Signal Store** (Gestión de estado)
+
+⚠️ **Nota:** Algunas configuraciones pueden cambiar o no ser estables en futuras versiones.
+
+---
 
 
 ## Clonando el Repositorio
@@ -96,11 +121,16 @@ npm run test:watch
 npm run test:coverage
 ``` 
 
-## ESLint - Prettier
+## Biome
 
-ESLint y Prettier te ayudan a mantener tu código limpio y legible, lo que a su vez te ayuda a reducir errores y mejorar la calidad de tu código. Por defecto este proyecto ya contiene las configuraciones necesarias, las reglas de ESLint en el archivo .eslintrc.json según las necesidades de Pragma.
+![⚠️ Experimental](https://img.shields.io/badge/%E2%9A%A0%EF%B8%8F-Experimental-orange)
 
-Ejeucte los comandos según corresponda:
+### 🚀 Biome en Angular
+Biome es una herramienta rápida y eficiente para linting y formateo de código en TypeScript.  
+Sin embargo, **aún no tiene soporte para SCSS ni HTML**, por lo que es recomendable complementarlo con ESLint y Prettier.
+
+
+Ejeucte los comandos según corresponda usando biome:
 
 ```bash 
 npm run lint
@@ -110,14 +140,10 @@ npm run lint
 npm run lint-all 
 ``` 
 
-```bash
-npm run lint-watch
-``` 
 
 Para obtener el mejor rendimiento, debes haber instalado y configurado las extensiones necesarias y/o recomendadas:
-- **ESLint** -> vscode-eslint
-- **Error Lens** -> usernamehw.errorlens
-- **Prettier - Code formatter** -> esbenp.prettier-vscode
+
+- **Biome** -> biomejs.biome
 
 ## Branch, Commits y GIT
 
@@ -130,7 +156,7 @@ Husky es una herramienta que ayuda a gestionar Git hooks en proyectos, permitien
 
 Husky suele configurarse para tareas como:
 
-Ejecutar linters o formatters antes de hacer commit (ej. eslint, prettier).
+Ejecutar linters o formatters antes de hacer commit (ej. biome).
 Correr pruebas automáticamente antes de hacer push.
 Evitar commits con errores asegurando que el código cumple ciertos estándares.
 

@@ -1,15 +1,15 @@
-<h1 class="title">{{ 'LAYOUT.TITLE' | translate }}</h1>
+<h1 class="title">{{ "LAYOUT.TITLE" | translate }}</h1>
 <section class="container">
-  <h2>{{ 'LAYOUT.SAY' | translate: titleParams }}</h2>
+  <h2>{{ "LAYOUT.SAY" | translate : titleParams }}</h2>
   <label>
-    {{ 'LAYOUT.SELECT' | translate }}
+    {{ "LAYOUT.SELECT" | translate }}
     <select #langSelect (change)="translate.use(langSelect.value)">
       @for (lang of translate.getLangs(); track lang) {
-        <option [value]="lang" [selected]="lang === translate.currentLang">
-          {{ lang }}
-        </option>
+      <option [value]="lang" [selected]="lang === translate.currentLang">
+        {{ lang }}
+      </option>
       } @empty {
-        <option value="sin lenguajes" disabled></option>
+      <option value="sin lenguajes" disabled></option>
       }
     </select>
   </label>

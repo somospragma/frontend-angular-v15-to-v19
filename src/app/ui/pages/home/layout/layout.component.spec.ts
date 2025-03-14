@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
-import { environment } from '@src/environments/environment';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { environment } from '@src/environments/environment';
 
 import { HttpLoaderFactory } from '@app/app.config';
-import { TranslateModule, TranslateService, TranslateLoader } from '@ngx-translate/core';
+import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 
-import { LayoutComponent } from './layout.component';
 import { HttpClient } from '@angular/common/http';
+import { LayoutComponent } from './layout.component';
 
 describe('LayoutComponent', () => {
   let component: LayoutComponent;

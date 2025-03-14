@@ -1,10 +1,10 @@
-import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, OnInit, inject } from '@angular/core';
 import { environment } from '@src/environments/environment';
 
+import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateService } from '@ngx-translate/core';
-import { browserLangHelper } from '@app/shared/helpers/browserLang.helper';
 
 /**
  * Componente para el layout de la aplicación

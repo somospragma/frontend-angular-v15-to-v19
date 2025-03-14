@@ -1,0 +1,129 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": [
+      "node_modules",
+      "dist",
+      "coverage",
+      ".angular",
+      "documentation",
+      "package-lock.json",
+      ".vscode",
+      ".gitlab",
+      ".husky"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "useEditorconfig": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 120,
+    "attributePosition": "auto",
+    "bracketSpacing": true,
+    "ignore": [
+      "**/dist",
+      "**/node_modules",
+      "**/coverage",
+      "src/index.html",
+      "**/documentation",
+      "**/.husky",
+      "**/.angular"
+    ]
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": false
+    },
+    "ignore": [
+      "projects/**/*",
+      "node_modules/**/*",
+      "**/node_modules",
+      "**/.husky",
+      "**/.angular",
+      "**/dist",
+      "**/coverage",
+      "**/documentation"
+    ]
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "es5",
+      "semicolons": "always",
+      "arrowParentheses": "asNeeded",
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto",
+      "bracketSpacing": true
+    }
+  },
+  "overrides": [
+    {
+      "include": ["*.ts"],
+      "javascript": {
+        "formatter": {
+          "arrowParentheses": "always",
+          "bracketSameLine": false,
+          "bracketSpacing": true,
+          "jsxQuoteStyle": "double",
+          "quoteProperties": "asNeeded",
+          "semicolons": "always",
+          "trailingCommas": "all"
+        }
+      },
+      "linter": {
+        "rules": {
+          "complexity": {
+            "useArrowFunction": "off"
+          },
+          "correctness": {
+            "noConstAssign": "error",
+            "noUnreachable": "error",
+            "noInvalidUseBeforeDeclaration": "info",
+            "noUnusedVariables": "error"
+          },
+          "style": {
+            "useBlockStatements": "error",
+            "useConst": "error"
+          },
+          "suspicious": {
+            "noAssignInExpressions": "error",
+            "noConsole": "error",
+            "noDebugger": "error",
+            "noEmptyBlockStatements": "error",
+            "noSparseArray": "error"
+          }
+        }
+      }
+    },
+    {
+      "include": ["*.html"],
+      "linter": {
+        "rules": {}
+      }
+    },
+    {
+      "include": ["*.spec.ts"],
+      "linter": {
+        "rules": {}
+      }
+    },
+    {
+      "include": ["*.component.html"]
+    }
+  ]
+}
