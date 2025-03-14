@@ -1,7 +1,0 @@
-{
-  "LAYOUT": {
-    "TITLE": "Arquetipo Angular 19 Standalone - Pragma",
-    "SAY": "Hola {{pragmatico}}! ¡Es genial tenerte!",
-    "SELECT": "Seleccionar idioma"
-  }
-}
