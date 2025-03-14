@@ -1,21 +1,32 @@
 <h1 align="center">Arquetipo Angular Pragma</h1>
+<div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_solido_ok.png?raw=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_blanco_ok.png">
+    <img alt="Logo Pragma" src="https://raw.githubusercontent.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_blanco_ok.png" width="250px" height="50px">
+  </picture>
+</div>
+
 <h2 align="center">Angular | La plataforma moderna para el desarrollo web.</h2>
 
+
+
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Angular-v17-red?logo=angular" />
+  <img src="https://img.shields.io/badge/Angular-v15-red?logo=angular" />
   <img src="https://img.shields.io/badge/Standalone-Components-blue" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
 
 
 <p align="center">
-  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/522563bccab2344634d3800d73514055/angular_wordmark_gradient.png" alt="angular-logo" width="300px" height="101x"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/angular_ok.png?raw=true" alt="angular-logo" width="300px" height="100px"/>
 
-  <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.0/1675676105903/Microsoft.VisualStudio.Services.Icons.Default" alt="eslint-logo" width="105px" height="100px"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/eslint_ok.png?raw=true" alt="eslint-logo" width="100px" height="100px"/>
 
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="100px"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/jest_ok.png?raw=true" alt="jest-logo" width="100px" height="100px"/>
 
-  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/880fb2962bb41eb13ee8f30f38288433/prettier-2-logo.png" alt="prettier-logo" width="120px" height="100px"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/prettier_ok.png?raw=true" alt="prettier-logo" width="100px" height="100px"/>
 
   <br>
   <br>
