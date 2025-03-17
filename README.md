@@ -21,11 +21,11 @@
 <p align="center">
   <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/angular_ok.png" alt="angular-logo" width="auto" height="100px"/>
 
-  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/eslint_ok.png" alt="eslint-logo" width="auto" height="100px"/>
-
   <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/jest_ok.png" alt="jest-logo" width="auto" height="100px"/>
 
-  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/prettier_ok.png" alt="prettier-logo" width="auto" height="100px"/>
+  <img src="https://raw.githubusercontent.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/refs/heads/main/tecnologias/rx_signal_ok.png" alt="rx-signal-logo" width="auto" height="100px"/>
+
+  <img src="https://raw.githubusercontent.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/refs/heads/main/tecnologias/biome_ok.png" alt="biome-logo" width="auto" height="100px"/>
 
   <br>
   <br>
