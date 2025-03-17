@@ -1,4 +1,12 @@
 <h1 align="center">Arquetipo Angular Pragma</h1>
+<div align="center">
+  <picture >
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_solido_ok.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_blanco_ok.png">
+    <img alt="Logo Pragma" src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/cea4d0f148a7a46b43ab1bf84c7f4e456a166e09/tecnologias/pragma_blanco_ok.png" width="auto" height="50px">
+  </picture>
+</div>
+
 <h2 align="center">Angular | La plataforma moderna para el desarrollo web.</h2>
 
 <p align="center">
@@ -11,21 +19,19 @@
 
 
 <p align="center">
-  <img src="https://gitlab.com/pragma-arquetipos-front/arquetipo-angular-pragma/-/wikis/uploads/522563bccab2344634d3800d73514055/angular_wordmark_gradient.png" alt="angular-logo" width="300px" height="101x"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/angular_ok.png" alt="angular-logo" width="auto" height="100px"/>
 
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png" alt="jest-logo" width="100px" height="95px"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/eslint_ok.png" alt="eslint-logo" width="auto" height="100px"/>
 
-  <img src="https://gitlab.com/-/project/48992290/uploads/dd7b03797cb5bc11a2ddd294525a98b0/biome.png" alt="biome-logo" width="100px" height="90px"/>
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/jest_ok.png" alt="jest-logo" width="auto" height="100px"/>
 
- <img src="https://miro.medium.com/v2/resize:fit:1000/1*qyX0fotHRZW_-jzPkAnP4g.png" alt="signal-store-logo" width="100px" height="100px"/>
-
-
+  <img src="https://github.com/fernando-jaramillo-pragma/fernando-jaramillo-pragma/blob/56dde5d42a52d5a25e890c03785a28c9047b2263/tecnologias/prettier_ok.png" alt="prettier-logo" width="auto" height="100px"/>
 
   <br>
   <br>
-
+  <p align="center">
   <i>Angular es una plataforma de desarrollo para crear aplicaciones web móviles y de escritorio <br> utilizando Typescript/JavaScript y otros lenguajes</i>
-  <br>
+  </p>
 </p>
 
 <p align="center">
