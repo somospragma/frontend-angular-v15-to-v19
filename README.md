@@ -57,6 +57,10 @@ Este proyecto trabaja bajo Angular v18 mediante STANDALONE,puede revisar las TAG
 |  Npm          |  10.8     |
 
 
+## Paso a Paso
+
+Puede seguir el paso a paso para utilizar el arquetipo y/o consultar más detalles sobre su versión y características. [ver WIKI](https://github.com/somospragma/frontend-angular-v15-to-v19/wiki)
+
 ## Clonando el Repositorio
 
 Puede realizar el clonado segun la version y rama respectiva, si no desea conservar historial de commits sugerimos:
